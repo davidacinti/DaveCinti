@@ -49,13 +49,23 @@
         .footer a {
             color: #007bff;
         }
+
+        .project-card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
     </style>
 </head>
 
 <body>
     <header class="hero text-center">
         <div class="container">
-            <img src="https://via.placeholder.com/150" alt="Dave Cinti" class="profile-img">
+            <img src="https://media.licdn.com/dms/image/D4D03AQEhA2wZnsNS2w/profile-displayphoto-shrink_200_200/0/1646758618054?e=1689244800&v=beta&t=Tmmd4eq0lI4qY5-mybG2cL7DXtw-K3O5IBc3yzQYMRs" alt="Dave Cinti" class="profile-img">
             <h1 class="mt-4">Hi, I'm Dave Cinti</h1>
             <p>Product Manager | FinTech Innovator | Digital Experience Creator</p>
             <a href="https://linkedin.com/in/davecinti" target="_blank" class="btn btn-light mt-3">Connect on LinkedIn</a>
@@ -65,14 +75,14 @@
     <main class="container my-5">
         <section id="about" class="text-center">
             <h2>About Me</h2>
-            <p class="mt-3">With over nine years of experience, I specialize in building and scaling innovative digital experiences, with a focus on FinTech. From leading multi-million dollar projects to launching new features like TheValu.com’s personalized financial tools, I’m passionate about delivering results and driving customer success.</p>
+            <p class="mt-3">I specialize in building and scaling innovative digital experiences, with a focus on FinTech. From leading impactful projects to launching new features like TheValu.com’s personalized financial tools, I’m passionate about delivering results and driving customer success.</p>
         </section>
 
         <section id="projects" class="mt-5">
             <h2 class="text-center">Projects</h2>
             <div class="row mt-4">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card project-card">
                         <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="TheValu.com">
                         <div class="card-body">
                             <h5 class="card-title">TheValu.com</h5>
@@ -82,20 +92,20 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card project-card">
                         <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Fast Track Renewals">
                         <div class="card-body">
                             <h5 class="card-title">Fast Track Renewals</h5>
-                            <p class="card-text">Led the development of a fully digital renewal journey that scaled to $200M in annual originations.</p>
+                            <p class="card-text">Led the development of a fully digital renewal journey that significantly improved customer convenience and scaled business impact.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card project-card">
                         <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="SpeedFunds">
                         <div class="card-body">
                             <h5 class="card-title">SpeedFunds</h5>
-                            <p class="card-text">Implemented funding solutions to streamline loan disbursements directly to customers’ debit cards.</p>
+                            <p class="card-text">Implemented funding solutions to streamline loan disbursements directly to customers’ debit cards, enhancing the customer experience.</p>
                         </div>
                     </div>
                 </div>
