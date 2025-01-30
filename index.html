@@ -42,7 +42,21 @@
 
         .company-logo {
             max-height: 60px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-body {
+            padding: 20px;
         }
 
         .footer {
@@ -78,29 +92,84 @@
             <div class="container">
                 <h2 class="text-center mb-5">Projects I've Worked On</h2>
 
-                <!-- OneMain Financial -->
-                <div class="mb-4">
+                <!-- OneMain Financial Projects -->
+                <div class="text-center mb-4">
                     <img src="/onemain-logo.png" alt="OneMain Financial" class="company-logo">
                     <h3>OneMain Financial</h3>
-                    <ul>
-                        <li><strong>Digital Personal Loan Refinance:</strong> Spearheaded development of a **fully digital refinance product**, achieving **$250M+ in annual volume**.</li>
-                        <li><strong>New Customer Loan Origination:</strong> Revamped the application process, increasing conversion rates from **7% to 21%**.</li>
-                        <li><strong>Fully Digital Loan Renewal:</strong> Led the launch of a seamless digital renewal journey.</li>
-                        <li><strong>Online Account Creation:</strong> Built a digital-first onboarding experience, enabling **15,000+ customers** to create accounts.</li>
-                        <li><strong>FinTech Integrations:</strong> Worked on **Plaid integration** for financial data analysis, **DocuSign, PayNearMe**, and other core systems.</li>
-                        <li><strong>AI-Powered Decision Making:</strong> Used **AI-driven insights** to optimize loan offers and improve customer segmentation.</li>
-                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Personal Loan Refinance</h5>
+                                <p class="card-text">Spearheaded a fully digital refinance product, driving **$250M+ in annual loan originations**.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">New Customer Loan Origination</h5>
+                                <p class="card-text">Revamped the application process, increasing conversion rates from **7% to 21%**.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Fully Digital Loan Renewal</h5>
+                                <p class="card-text">Led the launch of a seamless digital renewal journey, streamlining the user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Online Account Creation</h5>
+                                <p class="card-text">Developed a digital-first onboarding experience, enabling **15,000+ customers** to create accounts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Plaid & AI Integration</h5>
+                                <p class="card-text">Implemented **Plaid integration** for financial insights and leveraged **AI-driven insights** for optimizing loan offers.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- LoanClose.com -->
-                <div class="mb-4">
+                <!-- LoanClose.com Projects -->
+                <div class="text-center mt-5 mb-4">
                     <img src="/loanclose-logo.png" alt="LoanClose.com" class="company-logo">
                     <h3>LoanClose.com (Founder)</h3>
-                    <ul>
-                        <li><strong>API-Based Loan Marketplace:</strong> Built an **affiliate platform** linking customers to prequalified offers via **50+ state-based sites** (e.g., TXloan.com, GAloan.com).</li>
-                        <li><strong>Automated Loan Shopping:</strong> Developed an API system to **connect customers with real-time offers**.</li>
-                        <li><strong>Portfolio of Personal Finance Websites:</strong> Launched sites like **PersonalLoanPal.com** to streamline personal loan comparisons.</li>
-                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">API-Based Loan Marketplace</h5>
+                                <p class="card-text">Built an **affiliate platform** linking customers to prequalified offers via **50+ state-based sites** (e.g., TXloan.com, GAloan.com).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Automated Loan Shopping</h5>
+                                <p class="card-text">Developed an API system to **connect customers with real-time loan offers** across multiple lenders.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Finance Website Portfolio</h5>
+                                <p class="card-text">Launched and managed sites like **PersonalLoanPal.com**, helping customers compare personal loan options.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
